@@ -23,5 +23,7 @@ $(function() {
     animationEffect   : 'slide-in-out',
     touch : false
   });
+  
   $('.quiz__tel').mask('+7 (999) 999-99-99');
 });
+
