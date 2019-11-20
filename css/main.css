@@ -655,7 +655,11 @@ a.wt:hover {
   width: 100%;
   min-height: 268px;
   padding: 25px 25px 95px;
-
+}
+@media only screen and (max-width: 1200px) {
+  .popup_quiz__item {
+    min-height: 400px
+  }
 }
 .popup_quiz__ttl {
   font-size: 22px;
@@ -676,7 +680,7 @@ a.wt:hover {
 }
 @media only screen and (max-width: 1200px) {
   .quiz__submit {
-    bottom: 15px;
+    bottom: 25px;
   }
 }
 .owl-carousel .owl-item img {
